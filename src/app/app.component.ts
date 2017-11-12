@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 declare let ClientIP: any;
 
@@ -8,8 +8,8 @@ declare let ClientIP: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'YOUR IP ADDRESS - ';
-  IP= '';
+  message = 'YOUR IP ADDRESS - ';
+  IP = '';
 
   constructor() {
     this.IP = ClientIP;
