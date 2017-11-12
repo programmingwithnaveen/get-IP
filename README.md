@@ -1,7 +1,7 @@
 # GetIP
 
 
-##About this project
+## About this project
 
 This project shows how to get IP address into Angular project using Javascript
 
